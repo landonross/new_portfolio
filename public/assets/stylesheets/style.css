@@ -244,7 +244,7 @@ a:hover {
     font-size: 2vw;
 }
 
-hr {
+#bottom {
     position: absolute;
     top: 205vw;
     width: 100%;
@@ -253,6 +253,15 @@ hr {
     height: 78vmax;
     background-color:rgb(51, 51, 51);
     opacity: 0.5;
+}
+
+#whiteLine {
+    position: absolute;
+    top: 209vw;
+    width: 75%;
+    height: 1px;
+    background-color: white;
+    left: 12vw;
 }
 
 /* got effect from https://www.codingnepalweb.com/2020/05/text-glitch-effect-in-html-css.html */
