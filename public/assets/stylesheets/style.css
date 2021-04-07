@@ -1,3 +1,13 @@
+.title {
+    font-size: 4rem;
+  }
+  
+  @media (max-width: 1200px) {
+    .title {
+      font-size: calc(1.525rem + 3.3vw);
+    }
+  }
+
 body {
     background-repeat: no-repeat;
     background-size: auto;
@@ -9,7 +19,7 @@ body {
 
 #invisiblePoint {
     position: absolute;
-    top: 132vw;
+    top: 105vh;
 }
 
 .aboutMe {
@@ -33,7 +43,7 @@ body {
     color: white;
     font-family: 'Jura', sans-serif;
     line-height: 2.4;
-    font-size: 3vmin;
+    font-size: 1.1rem;
 }
 
 #fixedImage {
@@ -44,7 +54,7 @@ body {
     background-attachment: fixed;
     background-size: 100%;
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     padding: 0;
     margin: 0;
 }
@@ -64,25 +74,17 @@ body {
     top: 230vh;
     left: 2vw;
 }
-
-/* .form-control {
-    
-} */
-
-.spacing {
-    margin: 65vw;
-}
-
 .myWork {
     position: absolute;
-    top: 150vh;
+    top: 160vh;
     color: white;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    height: 30vw;
-    font-size: 6vw;
+    height: 40vw;
+    font-size: 6vh;
     font-family: 'Megrim', cursive;
     font-weight: bolder;
+    left: -5vh;
 }
 
 .navbar {
@@ -100,28 +102,6 @@ body {
 
 .navbar-brand {
     font-weight: bolder;
-}
-
-.portfolioCarousel {
-    position: absolute;
-    top: 130vw;
-}
-
-.d-block {
-    width: 99vw;
-    height: 80vw;
-}
-
-#button1 {
-  border-style: solid;
-  border-color: black;
-  width: auto;
-}
-
-#button2 {
-  border-style: solid;
-  border-color: black;
-  width: auto;
 }
 
 #submitButton {
@@ -182,60 +162,55 @@ a:hover {
 
 .contactMe {
     color:rgb(20, 150, 143);
-    font-size: 23vw;
+    font-size: 13vw;
     position: absolute;
     top: 202vh;
     font-family: 'Megrim', cursive;
     font-weight: bolder;
-    left: 1vw;
+    left: 20vw;
 }
 
 .barkle {
     position: absolute;
-    top: 135vh;
+    top: 145vh;
     color: white;
-    left: 20vw;
+    left: 10vh;
     font-family: 'Jura', sans-serif;
-    font-size: 2vw;
-    width: 35vw;
+    font-size: 1rem;
 }
 
 .bingeterest {
     position: absolute;
     top: 165vh;
     color: white;
-    left: 70vw;
+    left: 8vh;
     font-family: 'Jura', sans-serif;
-    font-size: 2vw;
-    text-align: right;
-    float: right;
+    font-size: 1rem;
 }
 
 .tbr {
     position: absolute;
-    top: 190vh;
+    top: 185vh;
     color: white;
-    left: 20vw;
+    left: 10vh;
     font-family: 'Jura', sans-serif;
-    font-size: 2vw;
+    font-size: 1rem;
 }
 
 #bottom {
     position: absolute;
     top: 200vh;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 78vmax;
+    height: 90vh;
     background-color:rgb(51, 51, 51);
     opacity: 0.5;
 }
 
 #whiteLine {
     position: absolute;
-    top: 203vh;
+    top: 202vh;
     width: 75%;
-    height: 1px;
+    height: .3vw;
     background-color: white;
     left: 12vw;
 }
