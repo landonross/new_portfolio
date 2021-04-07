@@ -42,7 +42,7 @@ body {
     background-position: center;
     background-image: url("/assets/img/coffee.jpg");
     background-attachment: fixed;
-    background-size: 150%;
+    background-size: 160%;
     width: 100%;
     height: 40vh;
 }
@@ -132,14 +132,14 @@ body {
 #icons {
     color:rgb(28, 207, 198);
     position: fixed;
-    left: 88vw;
+    left: 90vw;
     top: 10vh;
-    width: 5.5vh;
-    height: 24vh;
+    width: 4vh;
+    height: 17vh;
     writing-mode: vertical-lr;
     text-orientation: mixed;
     background-color: rgba(24, 24, 24, 0.8);
-    font-size: 2.5vh;
+    font-size: 1.8vh;
     margin: 1vw;
 }
 
@@ -158,7 +158,7 @@ a:hover {
     top: 208vh;
     font-family: 'Megrim', cursive;
     font-weight: bolder;
-    left: 25vw;
+    left: 29vw;
 }
 
 .barkle {
