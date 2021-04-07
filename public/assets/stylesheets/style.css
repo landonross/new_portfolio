@@ -1,9 +1,3 @@
-    /* @media (max-width: 800px) {
-    .barkle {
-      font-size: 2.4rem;
-    }
-  } */
-
 body {
     background-repeat: no-repeat;
     background-size: auto;
@@ -51,8 +45,8 @@ body {
     background-size: 100%;
     width: 100%;
     height: 40vh;
-    padding: 0;
-    margin: 0;
+    /* padding: 0;
+    margin: 0; */
 }
 
 #portfolio {
@@ -77,10 +71,10 @@ body {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     height: 100vh;
-    font-size: 6vh;
+    font-size: calc(1rem + 2vw);
     font-family: 'Megrim', cursive;
     font-weight: bolder;
-    left: -5vh;
+    left: -3vh;
 }
 
 .navbar {
@@ -161,19 +155,19 @@ a:hover {
 
 .contactMe {
     color:rgb(20, 150, 143);
-    font-size: calc(4rem + 6vw);
+    font-size: 10vw;
     position: absolute;
-    top: 204vh;
+    top: 208vh;
     font-family: 'Megrim', cursive;
     font-weight: bolder;
-    left: calc(1rem + 7vw);
+    left: 25vw;
 }
 
 .barkle {
     position: absolute;
     top: 145vh;
     color: white;
-    left: 11vh;
+    left: calc(1rem + 11vw);
     font-family: 'Jura', sans-serif;
     font-size: calc(.5rem + 1.2vw);
 }
@@ -182,7 +176,7 @@ a:hover {
     position: absolute;
     top: 165vh;
     color: white;
-    left: 9vh;
+    left: calc(.1rem + 11vw);
     font-family: 'Jura', sans-serif;
     font-size: calc(.5rem + 1.2vw);
 }
@@ -191,7 +185,7 @@ a:hover {
     position: absolute;
     top: 185vh;
     color: white;
-    left: 11vh;
+    left: calc(1rem + 11vw);
     font-family: 'Jura', sans-serif;
     font-size: calc(.5rem + 1.2vw);
 }
