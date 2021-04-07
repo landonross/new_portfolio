@@ -42,11 +42,9 @@ body {
     background-position: center;
     background-image: url("/assets/img/coffee.jpg");
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 120%;
     width: 100%;
     height: 40vh;
-    /* padding: 0;
-    margin: 0; */
 }
 
 #portfolio {
