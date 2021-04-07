@@ -1,12 +1,8 @@
-.title {
-    font-size: 4rem;
-  }
-  
-  @media (max-width: 1200px) {
-    .title {
-      font-size: calc(1.525rem + 3.3vw);
+    /* @media (max-width: 800px) {
+    .barkle {
+      font-size: 2.4rem;
     }
-  }
+  } */
 
 body {
     background-repeat: no-repeat;
@@ -43,7 +39,7 @@ body {
     color: white;
     font-family: 'Jura', sans-serif;
     line-height: 2.4;
-    font-size: 1.1rem;
+    font-size: calc(.6rem + 1.5vw);
 }
 
 #fixedImage {
@@ -80,7 +76,7 @@ body {
     color: white;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    height: 40vw;
+    height: 100vh;
     font-size: 6vh;
     font-family: 'Megrim', cursive;
     font-weight: bolder;
@@ -121,7 +117,10 @@ body {
     color: white;
     text-align: center;
     border-radius: 4px;
-    line-height: 4rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #resumeButton:hover {
@@ -162,39 +161,39 @@ a:hover {
 
 .contactMe {
     color:rgb(20, 150, 143);
-    font-size: 13vw;
+    font-size: calc(4rem + 6vw);
     position: absolute;
-    top: 202vh;
+    top: 204vh;
     font-family: 'Megrim', cursive;
     font-weight: bolder;
-    left: 20vw;
+    left: calc(1rem + 7vw);
 }
 
 .barkle {
     position: absolute;
     top: 145vh;
     color: white;
-    left: 10vh;
+    left: 11vh;
     font-family: 'Jura', sans-serif;
-    font-size: 1rem;
+    font-size: calc(.5rem + 1.2vw);
 }
 
 .bingeterest {
     position: absolute;
     top: 165vh;
     color: white;
-    left: 8vh;
+    left: 9vh;
     font-family: 'Jura', sans-serif;
-    font-size: 1rem;
+    font-size: calc(.5rem + 1.2vw);
 }
 
 .tbr {
     position: absolute;
     top: 185vh;
     color: white;
-    left: 10vh;
+    left: 11vh;
     font-family: 'Jura', sans-serif;
-    font-size: 1rem;
+    font-size: calc(.5rem + 1.2vw);
 }
 
 #bottom {
